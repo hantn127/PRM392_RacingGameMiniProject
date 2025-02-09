@@ -3,19 +3,11 @@ plugins {
 }
 
 android {
-<<<<<<< HEAD
     namespace = "com.example.racinggameminiproject"
-    compileSdk = 34
-
-    defaultConfig {
-        applicationId = "com.example.racinggameminiproject"
-=======
-    namespace = "com.example.layoutduangua"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.layoutduangua"
->>>>>>> origin/khang
+        applicationId = "com.example.racinggameminiproject"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
