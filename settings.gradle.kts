@@ -19,10 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-<<<<<<< HEAD
 rootProject.name = "Racing Game Mini Project"
-=======
-rootProject.name = "layoutduangua"
->>>>>>> origin/khang
 include(":app")
  
