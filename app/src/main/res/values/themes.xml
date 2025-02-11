@@ -1,17 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-<<<<<<< HEAD
     <style name="Base.Theme.RacingGameMiniProject" parent="Theme.Material3.DayNight.NoActionBar">
-=======
-    <style name="Base.Theme.Layoutduangua" parent="Theme.Material3.DayNight.NoActionBar">
->>>>>>> origin/khang
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-<<<<<<< HEAD
     <style name="Theme.RacingGameMiniProject" parent="Base.Theme.RacingGameMiniProject" />
-=======
-    <style name="Theme.Layoutduangua" parent="Base.Theme.Layoutduangua" />
->>>>>>> origin/khang
 </resources>
