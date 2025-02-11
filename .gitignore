@@ -1,15 +1,75 @@
-*.iml
-.gradle
+# Gradle files
+.gradle/
+.gradle/*
+
+# Local configuration file (sdk path, etc.)
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+# IntelliJ/Android Studio project files
+/.idea/
+/.idea/*
+/*.iml
+
+# Build folders
+/build/
+/app/build/
+*/build/
+
+# Gradle wrapper
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+/gradle/
+
+# Log files
+*.log
+*.stacktrace
+*.hprof
+
+# Generated files
+/captures/
+/outputs/
+/*.apk
+/*.ap_
+
+# Keystore files (if applicable)
+*.jks
+*.keystore
+
+# Dependency caches
+/.gradle/
+/.gradle/*
+/.externalNativeBuild
+.cxx/
+**/cmake-build-debug/
+
+# Miscellaneous
+*.class
+*.swp
+*.swo
+*.DS_Store
+*.pyc
+*.pyo
+*.orig
+
+# Android Studio Profiling
+*.hprof
+
+# NDK
+obj/
+*.so
+
+# Google Services (if using Firebase)
+google-services.json
+app/google-services.json
+fabric.properties
+
+# Fastlane metadata
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Emulator and device-specific files
+*.apk
+*.aab
+*.obb
+*.lock
